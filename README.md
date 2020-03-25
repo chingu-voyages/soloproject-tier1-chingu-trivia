@@ -18,8 +18,8 @@ General instructions for all Pre-Work Projects can also be found in the Chingu V
 
 - [ ] Header item that includes the name for the app, and tabs (if using)
 - [ ] Card that displays a trivia question and four multiple choice answers
-- [ ] Place element that display which question number the user is on and the total number of questions (ex. 'Question 1 / 10')
-- [ ] Buttons for advancing to the next question once the current question has been answered
+- [ ] Place element that displays which question number the user is on and the total number of questions (ex. 'Question 1 / 10')
+- [ ] Display buttons for advancing to the next question once the current question has been answered
 - [ ] Display a message to the user that informs them if their answer was right or wrong
 - [ ] Display a clear message to the user when the trivia session is done, and include the user's score
 
@@ -29,16 +29,20 @@ General instructions for all Pre-Work Projects can also be found in the Chingu V
 
 *Functionality*
 
+- [ ] The quiz should span at least 10 questions. Feel free to add more if you would like.
+- [ ] The page should not reload! Hardcode all of your questions/choices in your JS file and use DOM manipulation to insert text as you go
+- [ ] An array of questions/choices can be found in the `assets` folder of this repo; feel free to copy/paste the array in your JS file
+
 *Upon Load:*
 
 - [ ] Load the first question and display the user's place as *Question 1 / 10*
 - [ ] Make sure the button used to advance questions is either not visible or not clickable until an answer is submitted
 
 *Considerations:*
+
 - [ ] Try and style your app so that it doesn't overflow the viewport (require scrolling) on any device
 - [ ] Make sure your User Experience design is intuitive (buttons are clearly disabled when not available, messages are clear, etc)
 - [ ] In the name of responsiveness: please try and have your answer buttons (or divs, or whatever you use) collapse into a column in small sizes (iPhone5, etc)
-
 
 *Other:*
 
@@ -53,4 +57,4 @@ General instructions for all Pre-Work Projects can also be found in the Chingu V
 
 ## Example
 
-*Example GIF will go here*
+![](./assets/chingu_trivia.gif)
