@@ -31,7 +31,7 @@ General instructions for all Pre-Work Projects can also be found in the Chingu V
 
 - [ ] The quiz should span at least 10 questions. Feel free to add more if you would like.
 - [ ] The page should not reload! Hardcode all of your questions/choices in your JS file and use DOM manipulation to insert text as you go
-- [ ] An array of questions/choices can be found in the `assets` folder of this repo; feel free to copy/paste the array in your JS file
+- [ ] An array of questions/choices can be found in the `assets` folder of this repo *(filename is 'quizQuestions.js')*; feel free to copy/paste the array in your JS file
 
 *Upon Load:*
 
